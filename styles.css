@@ -155,10 +155,12 @@ font-family: "Rufina";
 color: #6DE54A ;
 font-size: 50px;
 font-weight: 700;
-padding: 300px;
 width:100%;
-object-fit: none;
+height:50%;;
 }
+
+.margaret-mead {
+  padding: 100px;}
 
 .resaltado {
   background-color: #6DE54A;
