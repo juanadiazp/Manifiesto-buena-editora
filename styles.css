@@ -327,7 +327,6 @@ display: inline-block;
   z-index: 0;
 }
 
-
 /*creo que esta clase se explica sola*/
 .por-amor-al-arte {
   background-color: #8AE570;
@@ -344,6 +343,7 @@ display: inline-block;
   font-size: 40px;
   position: relative;
   top: -50px;
+  animation: caer-2 4s infinite;
 
 }
 
@@ -351,14 +351,37 @@ display: inline-block;
   font-size: 30px;
   position: relative;
   top: -90px;
+  animation: caer-3 4s infinite;
+}
+
+.sin-negociar {
+  font-size: 20px;
+  position: relative;
+  top: -135px;
+  animation: caer-4 4s infinite;
 }
 
 .explotar {
   font-size: 15px;
   position: relative;
-  top: -120px;
+  top: -140px;
 }
 
+@keyframes caer-2 {
+  0% { top: -100px;
+  opacity: 0%;}
+  100% {top: -50px; opacity: 100%;}
+}
+
+@keyframes caer-3 {
+  0% { top: -150px; opacity:0%;}
+  100% {top: -100px; opacity: 100%;}
+}
+
+@keyframes caer-4 {
+  0% { top: -200px; opacity:0%;}
+  100% {top: -129px; opacity: 100%;}
+}
 /* lo anterior puede ser extraño pero me parecio muy divertido cuestionar la prudencia... asi que quise burlarme un poco de ella, como cuando escuchas tanto una palabra que comienza a sonar rara? asi, como con saciedad semantica. asi se debe editar, imprudentemente, si las palabras nos van a cansar que sean las que nos limitan*/
 
 .sin-censura {
